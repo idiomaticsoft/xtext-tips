@@ -1,0 +1,8 @@
+generated/
+bin/
+src-gen/
+target/
+xtend-gen/
+.launch/
+.settings/
+*.jar
