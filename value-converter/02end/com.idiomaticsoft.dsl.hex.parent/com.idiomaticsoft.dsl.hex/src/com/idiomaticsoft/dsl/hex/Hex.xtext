@@ -1,0 +1,14 @@
+grammar com.idiomaticsoft.dsl.hex.Hex with org.eclipse.xtext.common.Terminals
+
+generate hex "http://www.idiomaticsoft.com/dsl/hex/Hex"
+import "http://www.eclipse.org/emf/2002/Ecore" as ecore
+
+Model:
+	hex+=Hex*;
+
+Hex:
+	value=HEX_VALUE;
+
+// we have hexadecimal values of the type 0xXX, where X is number from 0 .. 1 or a letter from A to F
+terminal HEX_VALUE returns ecore::EInt:
+	'0x' (('0'..'9') | ('a'..'z') | ('A'..'Z')) (('0'..'9') | ('a'..'z') | ('A'..'Z'));

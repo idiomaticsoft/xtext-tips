@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+	<extension point="org.eclipse.emf.ecore.generated_package">
+		<package
+			uri = "http://www.idiomaticsoft.com/dsl/hex/Hex"
+			class = "com.idiomaticsoft.dsl.hex.hex.HexPackage"
+			genModel = "model/generated/Hex.genmodel" />
+	</extension>
+</plugin>
