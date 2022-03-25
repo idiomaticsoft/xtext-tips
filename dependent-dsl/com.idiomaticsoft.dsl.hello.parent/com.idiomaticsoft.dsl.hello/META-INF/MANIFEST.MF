@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: com.idiomaticsoft.dsl.hello
+Bundle-ManifestVersion: 2
+Bundle-Name: com.idiomaticsoft.dsl.hello
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: com.idiomaticsoft.dsl.hello; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.xtext,
+ org.eclipse.xtext.xbase,
+ org.eclipse.equinox.common;bundle-version="3.5.0",
+ org.eclipse.emf.ecore,
+ org.eclipse.xtext.xbase.lib;bundle-version="2.14.0",
+ org.eclipse.xtext.util,
+ org.eclipse.emf.common,
+ org.antlr.runtime;bundle-version="[3.2.0,3.2.1)"
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Export-Package: com.idiomaticsoft.dsl.hello.hello,
+ com.idiomaticsoft.dsl.hello.serializer,
+ com.idiomaticsoft.dsl.hello,
+ com.idiomaticsoft.dsl.hello.parser.antlr.internal,
+ com.idiomaticsoft.dsl.hello.parser.antlr,
+ com.idiomaticsoft.dsl.hello.generator,
+ com.idiomaticsoft.dsl.hello.hello.impl,
+ com.idiomaticsoft.dsl.hello.hello.util,
+ com.idiomaticsoft.dsl.hello.validation,
+ com.idiomaticsoft.dsl.hello.services,
+ com.idiomaticsoft.dsl.hello.scoping
+Import-Package: org.apache.log4j

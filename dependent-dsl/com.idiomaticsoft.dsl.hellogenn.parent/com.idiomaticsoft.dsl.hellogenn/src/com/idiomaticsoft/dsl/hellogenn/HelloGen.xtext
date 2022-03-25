@@ -1,0 +1,9 @@
+grammar com.idiomaticsoft.dsl.hellogenn.HelloGen with org.eclipse.xtext.common.Terminals
+
+generate helloGen "http://www.idiomaticsoft.com/dsl/hellogenn/HelloGen"
+
+Model:
+	greetings+=GreetingGen*;
+
+GreetingGen:
+	'generate' name=ID;

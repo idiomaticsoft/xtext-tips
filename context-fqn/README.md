@@ -8,4 +8,4 @@ This folder contains 2 versions of the block project. The folder `01start` conta
 
 # Explanation
 
-The explanation for this example is can be found in the following link: [Xtext Tip: Xtext Tip: Context dependent FQNs in Xtext](https://idiomaticsoft.com/post/2022-03-28-use-context-dependent-fqn/).
+The explanation for this example is can be found in the following link: [Xtext Tip: Xtext Tip: Context dependent FQNs in Xtext](https://idiomaticsoft.com/post/2022-03-30-use-context-dependent-fqn/).
