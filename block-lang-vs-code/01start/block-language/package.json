@@ -1,0 +1,25 @@
+{
+    "name": "block-language",
+    "displayName": "block-language",
+    "description": "Block Language support",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "block",
+            "aliases": ["Block Lang", "block"],
+            "extensions": ["block"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "block",
+            "scopeName": "source.block",
+            "path": "./syntaxes/block.tmLanguage.json"
+        }]
+    }
+}

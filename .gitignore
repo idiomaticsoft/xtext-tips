@@ -1,5 +1,7 @@
 generated/
 bin/
+out/
+node_modules/
 src-gen/
 target/
 xtend-gen/
