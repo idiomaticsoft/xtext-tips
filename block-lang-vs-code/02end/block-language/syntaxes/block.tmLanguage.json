@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-	"name": "Block Lang",
+	"name": "Block",
 	"patterns": [
 		{
 			"include": "#keywords"
@@ -11,10 +11,12 @@
 	],
 	"repository": {
 		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.block",
-				"match": "\\b(if|while|for|return)\\b"
-			}]
+			"patterns": [
+				{
+					"name": "keyword.control.block",
+					"match": "\\b(aliases|alias|block|field|.|{|})\\b"
+				}
+			]
 		},
 		"strings": {
 			"name": "string.quoted.double.block",

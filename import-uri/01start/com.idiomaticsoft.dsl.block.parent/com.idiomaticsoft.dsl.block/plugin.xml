@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+	<extension point="org.eclipse.emf.ecore.generated_package">
+		<package
+			uri = "http://www.idiomaticsoft.com/dsl/block/Block"
+			class = "com.idiomaticsoft.dsl.block.block.BlockPackage"
+			genModel = "model/generated/Block.genmodel" />
+	</extension>
+</plugin>
